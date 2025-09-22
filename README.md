@@ -4,8 +4,7 @@ OsTicket Docker Deployment
 
 📌 Overview
 
-This repository contains my dockerized osTicket helpdesk deployment.
-It’s designed to provide a reproducible, self-hosted ticketing/helpdesk system with minimal manual setup.
+This repository contains dockerized osTicket helpdesk deployment.
 
 Pre-requisites:
 1. Docker 
@@ -14,12 +13,20 @@ Pre-requisites:
 🚀 Quick Start
 
 1. Clone the repository
-"https://github.com/Gururaj-Project/OsTicket-Docker.git"
-
+'''
+https://github.com/Gururaj-Project/OsTicket-Docker.git
+'''
 2. Move into the folder 
-" cd osticket-docker "
+'''
+cd osticket-docker
+'''
 
-3. Change your environment variables as per your requirement.
+4. Change your environment variables as per your requirement.
 
-4. make docker compose up
-" docker compose up "
+5. make docker compose up
+'''
+docker compose up
+'''
+6. Access web applicatio in http://<your-ip>:7474
+
+Configure the application in startup. 
