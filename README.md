@@ -13,7 +13,7 @@ Pre-requisites:
 🚀 Quick Start
 
 1. Clone the repository
-'''
+'''bash
 https://github.com/Gururaj-Project/OsTicket-Docker.git
 '''
 2. Move into the folder 
