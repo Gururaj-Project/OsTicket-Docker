@@ -21,7 +21,7 @@ https://github.com/Gururaj-Project/OsTicket-Docker.git
 cd osticket-docker
 ```
 
-4. Change your environment variables as per your requirement.
+4. Change your environment variables as per your requirement in .env file.
 
 5. make docker compose up
 ```
