@@ -1,0 +1,30 @@
+services:
+  osticket:
+    build: .
+    container_name: osticket_app
+    ports:
+      - "7474:80"   # Change to your available port
+    depends_on:
+      - db
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    volumes:
+      - ./upload:/var/www/html
+    restart: unless-stopped
+
+  db:
+    image: mysql:5.7
+    container_name: osticket_db
+    restart: unless-stopped
+    ports:
+      - "7575:3306"    # Change with your available port
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - ./data/mysql:/var/lib/mysql
