@@ -18,7 +18,7 @@ https://github.com/Gururaj-Project/OsTicket-Docker.git
 ```
 2. Move into the folder
 ```
-cd osticket-docker
+cd OsTicket-Docker
 ```
 
 4. Change your environment variables as per your requirement in .env file.
