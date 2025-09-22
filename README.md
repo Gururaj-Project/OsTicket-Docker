@@ -16,17 +16,17 @@ Pre-requisites:
 ```
 https://github.com/Gururaj-Project/OsTicket-Docker.git
 ```
-2. Move into the folder 
-'''
+2. Move into the folder
+```
 cd osticket-docker
-'''
+```
 
 4. Change your environment variables as per your requirement.
 
 5. make docker compose up
-'''
+```
 docker compose up
-'''
-6. Access web applicatio in http://<your-ip>:7474
+```
+6. Access web applicatio in ``` http://<your-ip>:7474 ```
 
 Configure the application in startup. 
