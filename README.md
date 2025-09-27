@@ -27,6 +27,6 @@ cd OsTicket-Docker
 ```
 docker compose up
 ```
-6. Access web applicatio in ``` http://<your-ip>:7474 ```
+6. Access web application in ``` http://<your-ip>:7474 ```
 
 Configure the application in startup. 
